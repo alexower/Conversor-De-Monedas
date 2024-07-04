@@ -1,3 +1,4 @@
+package com.conversordemonedas.modelos;
 
 import java.util.Map;
 

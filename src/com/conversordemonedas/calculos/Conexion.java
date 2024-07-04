@@ -1,3 +1,6 @@
+package com.conversordemonedas.calculos;
+
+import com.conversordemonedas.modelos.Moneda;
 import com.google.gson.Gson;
 
 import java.net.URI;
