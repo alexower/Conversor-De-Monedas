@@ -10,9 +10,10 @@ import java.net.http.HttpResponse;
 
 public class Conexion {
 
-    public Moneda conectarApi(String moneda){
+    public Moneda conectarApi(String base_code,String tarjet_code , double amount){
 
-        URI direccion =  URI.create("https://v6.exchangerate-api.com/v6/890203fdfaab3ea51cc0d7e6/latest/"+ moneda);
+        URI direccion =  URI.create( "https://v6.exchangerate-api.com/v6/890203fdfaab3ea51cc0d7e6/pair/" +
+                                     base_code+"/"+tarjet_code+"/"+amount+"/");
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
