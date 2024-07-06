@@ -83,12 +83,14 @@ public class Main {
                     case 0 :
                         continuar = false;
                         break;
+                    default:
+                        System.out.println("Seleccione una opcion del menu!");
                 }
             }catch (NumberFormatException e){
-                System.out.println("Escoja una opcion, Error: "+ e.getMessage());
+                System.out.println("Solo se admiten numeros!, Error: "+ e.getMessage());
             }
         }
-        System.out.println("finalizacion del programa! ");
+        System.out.println("Finalizacion del programa! ");
         }
     }
 
