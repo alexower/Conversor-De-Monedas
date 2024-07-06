@@ -1,10 +1,8 @@
 package com.conversordemonedas.modelos;
 
-public class ExepcionNumeroNegativo extends  RuntimeException {
+public class NegativeNumberException extends  RuntimeException {
 
-        public ExepcionNumeroNegativo(String message) {
+        public NegativeNumberException(String message) {
             super(message);
         }
-
-
 }
