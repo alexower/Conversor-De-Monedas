@@ -1,5 +1,5 @@
-package com.conversordemonedas.calculos;
-import com.conversordemonedas.modelos.Moneda;
+package com.conversordemonedas.funtions;
+import com.conversordemonedas.models.Moneda;
 
 
 public class Conversion   {

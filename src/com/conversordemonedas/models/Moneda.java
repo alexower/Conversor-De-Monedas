@@ -1,4 +1,4 @@
-package com.conversordemonedas.modelos;
+package com.conversordemonedas.models;
 
 public record Moneda(String time_last_update_utc,
                      String base_code,

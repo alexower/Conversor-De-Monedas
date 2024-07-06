@@ -1,5 +1,5 @@
-package com.conversordemonedas.calculos;
-import com.conversordemonedas.modelos.Moneda;
+package com.conversordemonedas.funtions;
+import com.conversordemonedas.models.Moneda;
 
 import com.google.gson.Gson;
 import java.net.URI;
@@ -7,7 +7,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class Conexion {
+public class ApiConnector {
 
     public Moneda conectarApi(String base_code, String tarjet_code , double amount){
 

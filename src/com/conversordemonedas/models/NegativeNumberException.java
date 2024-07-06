@@ -1,4 +1,4 @@
-package com.conversordemonedas.modelos;
+package com.conversordemonedas.models;
 
 public class NegativeNumberException extends  RuntimeException {
 

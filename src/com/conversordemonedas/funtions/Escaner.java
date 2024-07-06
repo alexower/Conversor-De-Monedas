@@ -1,6 +1,6 @@
-package com.conversordemonedas.calculos;
+package com.conversordemonedas.funtions;
 
-import com.conversordemonedas.modelos.NegativeNumberException;
+import com.conversordemonedas.models.NegativeNumberException;
 
 import java.util.Scanner;
 

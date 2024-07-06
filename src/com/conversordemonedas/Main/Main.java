@@ -1,9 +1,9 @@
-package com.conversordemonedas.principal;
+package com.conversordemonedas.Main;
 
-import com.conversordemonedas.calculos.Conexion;
-import com.conversordemonedas.calculos.Conversion;
-import com.conversordemonedas.calculos.Escaner;
-import com.conversordemonedas.modelos.Moneda;
+import com.conversordemonedas.funtions.ApiConnector;
+import com.conversordemonedas.funtions.Conversion;
+import com.conversordemonedas.funtions.Escaner;
+import com.conversordemonedas.models.Moneda;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Conexion api = new Conexion();
+        ApiConnector api = new ApiConnector();
         Conversion conversion = new Conversion();
         Scanner teclado = new Scanner(System.in);
 
